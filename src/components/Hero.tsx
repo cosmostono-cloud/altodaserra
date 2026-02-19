@@ -14,7 +14,8 @@ const Hero = () => {
           alt="Vista da Jacuzzi na Pousada Alto da Serra" 
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-emerald-950/80 via-emerald-950/50 to-emerald-950/80 md:bg-gradient-to-r md:from-emerald-950/70 md:via-emerald-950/40 md:to-transparent" />
+        {/* Gradiente otimizado: mais escuro no topo (para o logo) e na base (para os textos de destaque) */}
+        <div className="absolute inset-0 bg-gradient-to-b from-emerald-950/90 via-emerald-950/40 to-emerald-950/90 md:bg-gradient-to-r md:from-emerald-950/80 md:via-emerald-950/40 md:to-transparent" />
       </div>
 
       <div className="container mx-auto px-4 relative z-10">
@@ -24,7 +25,7 @@ const Hero = () => {
           transition={{ duration: 0.8 }}
           className="max-w-2xl text-white text-center md:text-left"
         >
-          <div className="flex items-center gap-2 mb-6 bg-emerald-500/30 backdrop-blur-md w-fit px-4 py-1 rounded-full border border-emerald-400/30 mx-auto md:mx-0">
+          <div className="flex items-center gap-2 mb-6 bg-emerald-500/40 backdrop-blur-md w-fit px-4 py-1 rounded-full border border-emerald-400/30 mx-auto md:mx-0">
             <Star className="h-4 w-4 fill-emerald-400 text-emerald-400" />
             <span className="text-xs md:text-sm font-medium uppercase tracking-wider">O melhor refúgio de Conservatória</span>
           </div>
@@ -47,7 +48,8 @@ const Hero = () => {
             </Button>
           </div>
 
-          <div className="mt-12 flex items-center justify-center md:justify-start gap-4 md:gap-6 text-emerald-100/80">
+          {/* Seção de destaques com contraste reforçado pelo gradiente de fundo */}
+          <div className="mt-12 flex items-center justify-center md:justify-start gap-4 md:gap-6 text-emerald-100/90">
             <div className="flex flex-col items-center md:items-start">
               <span className="text-xl md:text-2xl font-bold text-white">✨ Conforto</span>
               <span className="text-xs md:text-sm">Toque familiar</span>
