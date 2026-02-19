@@ -10,7 +10,6 @@ import Testimonials from '@/components/Testimonials';
 import CTA from '@/components/CTA';
 import Footer from '@/components/Footer';
 import WhatsAppButton from '@/components/WhatsAppButton';
-import { MadeWithDyad } from "@/components/made-with-dyad";
 
 const Index = () => {
   return (
@@ -26,7 +25,6 @@ const Index = () => {
       </main>
       <Footer />
       <WhatsAppButton />
-      <MadeWithDyad />
     </div>
   );
 };
