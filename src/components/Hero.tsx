@@ -11,11 +11,11 @@ const Hero = () => {
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
         <img 
-          src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&q=80&w=2000" 
-          alt="Natureza em Conservatória" 
+          src="/images/alto-jacuzzi.jpg" 
+          alt="Vista da Jacuzzi na Pousada Alto da Serra" 
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-emerald-950/80 to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-r from-emerald-950/70 via-emerald-950/40 to-transparent" />
       </div>
 
       <div className="container mx-auto px-4 relative z-10">
@@ -25,7 +25,7 @@ const Hero = () => {
           transition={{ duration: 0.8 }}
           className="max-w-2xl text-white"
         >
-          <div className="flex items-center gap-2 mb-4 bg-emerald-500/20 backdrop-blur-sm w-fit px-4 py-1 rounded-full border border-emerald-400/30">
+          <div className="flex items-center gap-2 mb-4 bg-emerald-500/30 backdrop-blur-md w-fit px-4 py-1 rounded-full border border-emerald-400/30">
             <Star className="h-4 w-4 fill-emerald-400 text-emerald-400" />
             <span className="text-sm font-medium uppercase tracking-wider">O melhor refúgio de Conservatória</span>
           </div>

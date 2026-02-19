@@ -1,7 +1,7 @@
 "use client";
 
 import React from 'react';
-import { Instagram, Trees, MapPin, Phone, Mail } from 'lucide-react';
+import { Instagram, MapPin, Phone, Mail } from 'lucide-react';
 
 const Footer = () => {
   return (
@@ -9,8 +9,8 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-4 gap-12 mb-16">
           <div className="col-span-1 md:col-span-1">
-            <div className="flex items-center gap-2 mb-6">
-              <Trees className="text-emerald-400 h-8 w-8" />
+            <div className="flex items-center gap-3 mb-6">
+              <img src="/images/alto-logo.jpg" alt="Logo Alto da Serra" className="h-12 w-12 rounded-full object-cover" />
               <span className="text-2xl font-serif font-bold text-white">Alto da Serra</span>
             </div>
             <p className="leading-relaxed">

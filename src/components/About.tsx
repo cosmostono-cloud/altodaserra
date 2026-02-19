@@ -15,14 +15,23 @@ const About = () => {
             viewport={{ once: true }}
             className="relative"
           >
-            <div className="aspect-[4/5] rounded-3xl overflow-hidden shadow-2xl">
-              <img 
-                src="https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&q=80&w=1000" 
-                alt="Interior da Pousada" 
-                className="w-full h-full object-cover"
-              />
+            <div className="grid grid-cols-2 gap-4">
+              <div className="aspect-[4/5] rounded-3xl overflow-hidden shadow-xl">
+                <img 
+                  src="/images/alto-exterior.jpg" 
+                  alt="Fachada da Pousada" 
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <div className="aspect-[4/5] rounded-3xl overflow-hidden shadow-xl mt-8">
+                <img 
+                  src="/images/alto-dining.jpg" 
+                  alt="Área do Café da Manhã" 
+                  className="w-full h-full object-cover"
+                />
+              </div>
             </div>
-            <div className="absolute -bottom-8 -right-8 bg-white p-8 rounded-2xl shadow-xl max-w-[240px] hidden lg:block">
+            <div className="absolute -bottom-8 left-1/2 -translate-x-1/2 bg-white p-6 rounded-2xl shadow-xl max-w-[280px] text-center">
               <p className="text-emerald-900 font-serif italic text-lg">
                 "Não é só hospedagem… é encontro com tranquilidade."
               </p>
